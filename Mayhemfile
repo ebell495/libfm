@@ -1,0 +1,7 @@
+project: libfm
+target: transpose
+
+image: ghcr.io/ebell495/libfm:latest
+
+cmds:
+    - cmd: /transpose -ifile @@ -ofile /dev/null
